@@ -1,0 +1,89 @@
+.footer{
+    background-color: brown;
+    padding: 5px 20px 20px;
+}
+
+.stores{
+    display: flex;
+    padding: 0 20px;
+}
+
+.asicon{
+    width: 90px;
+    transition: 0.7s ease-in;
+}
+
+.asicon:hover{
+    transform: scale(1.2);
+}
+
+.gpicon{
+    width: 110px;
+    transition: 0.7s ease-in;
+}
+
+.gpicon:hover{
+    transform: scale(1.2);
+}
+
+.div2, .div3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.div2 .socicons{
+margin: 10px 0;
+}
+
+.div2 .socicons > *{
+    width: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+    transition: .7s ease-in-out;
+
+}
+
+.div2 .socicons > *:hover{
+    border: 2px solid white;
+  transform: scale(1.1) translateY(-3px);
+}
+
+.div32 a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+.div32 a:hover{
+    color: black;
+}
+
+p{
+    color: rgb(194, 173, 173);
+}
+
+
+/* Media Query starts here --------------------- */
+@media (max-width:756px){
+    .div2, .div3{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+    }
+
+    .div32 p{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .stores{
+        display: flex;
+        justify-content: center;
+    }
+
+}

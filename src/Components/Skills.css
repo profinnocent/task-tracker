@@ -1,0 +1,18 @@
+.skills{
+background-color: aliceblue;
+margin: 30px auto -30px;
+padding: 50px ;
+text-align: center;
+}
+
+.skills p{
+    color: black;
+}
+.stack{
+    margin: 30px auto;
+}
+
+.stack img{
+    width: 100px;
+    margin: 10px;
+}

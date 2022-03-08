@@ -1,0 +1,33 @@
+.tweet{
+    background-color: aliceblue;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.tweethead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.twicon img{
+    width: 30px;
+}
+
+.tweetimg i{
+    background-color: aqua;
+    padding: 10px;
+    font-size: 40px;
+    border-radius: 50%;
+}
+
+.tweetbody{
+    margin: 10px 0;
+}
+
+.tweet a{
+    text-decoration: none;
+}

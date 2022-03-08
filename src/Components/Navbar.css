@@ -1,0 +1,53 @@
+.navbar{
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo span{
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+    font-family: cursive;
+    margin-right: 5px;
+}
+
+.mylogo{
+    width: 30px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.menu{
+    display: flex;
+
+}
+
+.menu li{
+list-style: none;
+margin-left: 5px;
+padding: 0 10px 5px;
+color: rgb(190, 187, 187);
+border-radius: 5px;
+}
+
+.menu li:hover{
+    background-color: red;
+    border: 1px solid white;
+}
+
+.navbar button{
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 2px solid white;
+    outline: none;
+    color: white;
+}
